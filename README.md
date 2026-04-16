@@ -1,4 +1,4 @@
-# 📌 Task Management Backend (Node.js + Express + MongoDB)
+#  Task Management Backend (Node.js + Express + MongoDB)
 
 To install dependencies:
 
