@@ -10,5 +10,6 @@ router.route("/task").get(getTask);
 router.route("/task/:id").get(getTask);
 router.route("/task/:id").patch(validateUpdateTask,updateTask);
 router.route("/task/:id").delete(deleteTask);
+router.route("/task/:id/complete").patch(getTask);
 
 export default router;
